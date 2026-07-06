@@ -43,12 +43,12 @@ python run.py
 
 ### Detection with audio feedback
 ```bash
-python runmod2.py --weights best.pt --source 0 --conf-thres 0.85
+python run_voice.py --weights best.pt --source 0 --conf-thres 0.85
 ```
 
 ### Detection with audio + ESP32 camera
 ```bash
-python runmod.py --weights best.pt --esp32-url http://<ESP32_IP>:81/stream
+python run_voice.py --weights best.pt --esp32-url http://<ESP32_IP>:81/stream
 ```
 
 ### Detection only (no audio)
